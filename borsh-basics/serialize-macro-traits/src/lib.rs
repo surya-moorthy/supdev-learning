@@ -5,5 +5,5 @@ pub trait Serialize {
 }
 
 pub trait Deserialize {
-    fn deserialize(&self) -> Result<Self,Error> where Self: Sized ;
+    fn deserialize(size : &[u8]) -> Result<Self,Error> where Self: Sized ;
 }

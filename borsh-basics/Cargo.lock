@@ -3,6 +3,14 @@
 version = 4
 
 [[package]]
+name = "app"
+version = "0.1.0"
+dependencies = [
+ "serialize-macro",
+ "serialize-macro-traits",
+]
+
+[[package]]
 name = "assignment"
 version = "0.1.0"
 

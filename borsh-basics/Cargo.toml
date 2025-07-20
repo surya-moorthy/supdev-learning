@@ -5,4 +5,4 @@ edition = "2024"
 
 [workspace]
 resolver="3"
-members = [ "serialize-macro","serialize-macro-traits"]
+members = [ "app", "serialize-macro","serialize-macro-traits"]

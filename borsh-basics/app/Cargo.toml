@@ -1,0 +1,8 @@
+[package]
+name = "app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serialize-macro = {path="../serialize-macro"}
+serialize-macro-traits = {path ="../serialize-macro-traits"}
