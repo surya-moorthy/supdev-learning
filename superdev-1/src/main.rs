@@ -1,5 +1,7 @@
 use std::{fmt::Error, vec};
 
+// not a macro yet
+
 trait  Serialize {
     fn serialize(&self) -> Vec<u8>;
 }
